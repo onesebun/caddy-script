@@ -1,0 +1,4 @@
+www.onesebun.app, onesebun.app {
+    root /srv
+    log /access.log
+}
