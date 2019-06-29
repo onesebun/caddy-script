@@ -1,4 +1,9 @@
-www.onesebun.app, onesebun.app {
+www.onesebun.app {
+    redir https://onesebun.app{uri}
+}
+
+onesebun.app {
     root /srv
-    log /access.log
+    browse
+    gzip
 }
